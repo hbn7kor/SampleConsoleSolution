@@ -1,29 +1,10 @@
 ﻿namespace SampleConsoleApp
 {
-    public class Master
+    public class Program
     {
-
-        public static int GetRandomNumber()
-        {
-            return new Random().Next(1, 100);
-        }
-
-        public static bool isEven(int number)
-        {
-            return number % 2 == 0;
-        }
-
         public static void Main()
         {
-            int number = GetRandomNumber();
-            if (number > 10)
-            {
-                Console.WriteLine("number > 10");
-            }
-            else
-            {
-                Console.WriteLine("number < 10");
-            }
+            Console.WriteLine("The quick brown fox jumps over the lazy dog");
         }
     }
 }
