@@ -8,6 +8,11 @@
             return new Random().Next(1, 100);
         }
 
+        public static bool isEven(int number)
+        {
+            return number % 2 == 0;
+        }
+
         public static void Main()
         {
             int number = GetRandomNumber();
